@@ -1,0 +1,12 @@
+ .center {
+    width: 170px; /* Ширина элемента в пикселах */
+    padding: 50px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+   }
+   div {border: 1px solid gray;
+    padding: 50px;
+    background:#FAFAFA;
+    border-radius: 3px;
+    box-shadow: 0 0 1px;
+    }
+   body {background: #F9FAFA; }
