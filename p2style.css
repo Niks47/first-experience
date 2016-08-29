@@ -1,34 +1,24 @@
-   .f1 {
+    .gtp search{
         width: 50%; /* Ширина блока */
         margin: auto ; /* Выравниваем по центру */
         min-height: 100px;/*вісота блока*/
         margin-bottom: 10px;
+    }    
 
-
-
-        border: 1px solid gray;
-        background:#FAFAFA;
-        border-radius: 3px;
-        box-shadow: 0 0 1px;
-        }
-    .f2 { width: 50%; /* Ширина блока */
+    .top { 
+        width: 50%; /* Ширина блока */
         margin: auto; /* Выравниваем по центру */
         min-height: 550px;/*вісота блока*/
-        margin-bottom: 10px;
+        margin-bottom: 10px;}
 
-
-        border: 1px solid gray;
-        background:#FAFAFA;
-        border-radius: 3px;
-        box-shadow: 0 0 1px;}
-
-    .f3 {   
+    .down {   
         width: 50%; /* Ширина блока */
         margin: auto ; /* Выравниваем по центру */
         min-height: 50px;/*высота блока*/
-       
+    }
+      .block{  
         border: 1px solid gray;
         background:#FAFAFA;
         border-radius: 3px;
         box-shadow: 0 0 1px;
-        }
+    }
