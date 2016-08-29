@@ -1,0 +1,33 @@
+
+ul.edit-form > li.full-width {
+    width: 100%;
+}
+
+
+
+ul.edit-form > li:nth-child(even) {
+    border-left: 1px solid #e7ebef;
+}
+
+
+
+ul.edit-form > li header {
+    color: #b43728;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+
+
+ul.edit-form > li .input-field {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+
+ul.edit-form > li .input-field.dimension {
+    display: inline-block;
+    width: 25%;
+}
