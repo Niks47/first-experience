@@ -1,18 +1,20 @@
     .search{
-        width: 50%; /* Ширина блока */
+        width: 60%; /* Ширина блока */
         margin: auto ; /* Выравниваем по центру */
         min-height: 100px;/*вісота блока*/
         margin-bottom: 10px;
+        position:relative; /*???????*/
     }    
 
     .top { 
-        width: 50%; /* Ширина блока */
+        width: 60%; /* Ширина блока */
         margin: auto; /* Выравниваем по центру */
         min-height: 550px;/*вісота блока*/
-        margin-bottom: 10px;}
+        margin-bottom: 10px;
+    }
 
     .down {   
-        width: 50%; /* Ширина блока */
+        width: 60%; /* Ширина блока */
         margin: auto ; /* Выравниваем по центру */
         min-height: 50px;/*высота блока*/
     }
@@ -23,5 +25,36 @@
         box-shadow: 0 0 1px;
     }
     body { 
-    background: #F9FAFA; 
+        background: #F9FAFA; 
     } 
+    .left {
+        float: left; /* Обтекание по правому краю */ 
+        border: 1px solid gray; /* Параметры рамки */
+        width: 49%; /* Ширина блока */
+    }
+    .right {
+        float: left; /* Обтекание по правому краю */
+        border: 1px solid gray; /* Параметры рамки */
+        width: 49%; /* Ширина блока */
+    }
+    .field {
+        margin: 10px 10px ; /* Выравниваем по центру */
+    }
+    .input {
+        width: 250px;/* Ширина блока */
+        min-height: 20px;/*высота блока*/
+    }
+    a {
+        text-decoration: none; /*убрать подчеркивание */
+        color: black; /* Цвет ссылки */
+    }
+    a:hover {
+        text-decoration: underline ;/*подчеркивание при наведении*/
+        color: black; /* Цвет ссылки */
+        color: #154088;
+    }
+    .alphabet {
+        border: 1px solid gray; /* Параметры рамки */
+        position:absolute; /* добавили *//*???????*/
+	    bottom:10px; /* добавили */ /*отступ снизу */
+    }
