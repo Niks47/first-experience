@@ -30,12 +30,14 @@
     .left {
         float: left; /* Обтекание по правому краю */ 
         border: 1px solid gray; /* Параметры рамки */
-        width: 49%; /* Ширина блока */
+        width: 50%; /* Ширина блока */
+        box-sizing: border-box;
     }
     .right {
         float: left; /* Обтекание по правому краю */
         border: 1px solid gray; /* Параметры рамки */
-        width: 49%; /* Ширина блока */
+        width: 50%; /* Ширина блока */
+        box-sizing: border-box;
     }
     .field {
         margin: 10px 10px ; /* Выравниваем по центру */
@@ -49,12 +51,18 @@
         color: black; /* Цвет ссылки */
     }
     a:hover {
-        text-decoration: underline ;/*подчеркивание при наведении*/
+        /*text-decoration: underline ;/*подчеркивание при наведении*/
         color: black; /* Цвет ссылки */
-        color: #154088;
+        /*color: #154088;*/
+        background: #E0F2F7;
+    }
+    .alphabet a { 
+        display: inline-block;
+        min-width: 25px;
+        text-align: center;
     }
     .alphabet {
-        border: 1px solid gray; /* Параметры рамки */
-        position:absolute; /* добавили *//*???????*/
-	    bottom:10px; /* добавили */ /*отступ снизу */
+	    bottom:5px; /* добавили */ /*отступ снизу */
+        width: 100%;
+        margin: 40px 0px 0px 0px;
     }
