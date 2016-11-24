@@ -1,5 +1,5 @@
     .search{
-        width: 60%; /* Ширина блока */
+        width: 860px; /* Ширина блока */
         margin: auto ; /* Выравниваем по центру */
         min-height: 100px;/*вісота блока*/
         margin-bottom: 10px;
@@ -7,22 +7,22 @@
     }    
 
     .top { 
-        width: 60%; /* Ширина блока */
+        width: 860px; /* Ширина блока */
         margin: auto; /* Выравниваем по центру */
         min-height: 550px;/*вісота блока*/
         margin-bottom: 10px;
     }
 
     .down {   
-        width: 60%; /* Ширина блока */
+        width: 860px; /* Ширина блока */
         margin: auto ; /* Выравниваем по центру */
         min-height: 50px;/*высота блока*/
     }
     .block{  
-        border: 1px solid gray;
+        border: 1px solid gray;/*рамка*/
         background:#FAFAFA;
-        border-radius: 3px;
-        box-shadow: 0 0 1px;
+        border-radius: 3px;/*толщина рамки*/
+        box-shadow: 0 0 1px;/*тень рамки*/
     }
     body { 
         background: #F9FAFA; 
@@ -32,12 +32,18 @@
         border: 1px solid gray; /* Параметры рамки */
         width: 50%; /* Ширина блока */
         box-sizing: border-box;
+        overflow: hidden;/*Отображается только область внутри элемента*/
+        text-overflow: ellipsis;/*точки*/
+        white-space: nowrap;/*перенос текста -Не переносится -Не учитываются*/
     }
     .right {
         float: left; /* Обтекание по правому краю */
         border: 1px solid gray; /* Параметры рамки */
         width: 50%; /* Ширина блока */
         box-sizing: border-box;
+        overflow: hidden;/*Отображается только область внутри элемента*/
+        text-overflow: ellipsis;/*точки*/
+        white-space: nowrap;/*перенос текста -Не переносится -Не учитываются*/
     }
     .field {
         margin: 10px 10px ; /* Выравниваем по центру */
@@ -60,9 +66,13 @@
         display: inline-block;
         min-width: 25px;
         text-align: center;
+        width: 3.24%;
+
     }
     .alphabet {
-	    bottom:5px; /* добавили */ /*отступ снизу */
+	    
         width: 100%;
         margin: 40px 0px 0px 0px;
     }
+
+    
