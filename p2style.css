@@ -4,47 +4,72 @@
         min-height: 100px;/*вісота блока*/
         margin-bottom: 10px;
         position:relative; /*???????*/
-    }    
-
+        background: url(nota3.jpg);
+    }   
+    .search_line {
+        background:#ECF0F1;
+        border: 1px solid #ECF0F1;
+        border-radius: 5px;
+        min-width: 327px; /*длинна поля*/
+    } 
+    .button_search {
+        background:#ECF0F1;
+        border: 1px solid #ECF0F1;
+        border-radius: 5px;
+        min-width: 60px;
+    }
     .top { 
         width: 860px; /* Ширина блока */
         margin: auto; /* Выравниваем по центру */
-        min-height: 550px;/*вісота блока*/
+        min-height: 800px;/*вісота блока*/
         margin-bottom: 10px;
+        background: url(top_fon6.jpg);
+        /*background-size: 100%; /* фон на вес блок */
+        background-position: 50% 50%;
+        background-size: cover ;
+        color: #ECF0F1;
+        font-size: large;
+        /*text-align: center;*/
     }
-
     .down {   
         width: 860px; /* Ширина блока */
         margin: auto ; /* Выравниваем по центру */
-        min-height: 50px;/*высота блока*/
+        min-height: 30px;/*высота блока*/
+        background: url(fon1.jpg);
+        color:#FAFAFA; 
     }
     .block{  
-        border: 1px solid gray;/*рамка*/
-        background:#FAFAFA;
-        border-radius: 3px;/*толщина рамки*/
+        border: 1px solid #ECF0F1;/*рамка*/
+        /*background:#FAFAFA;*/
+        border-radius: 5px;/*округление углов рамки*/
         box-shadow: 0 0 1px;/*тень рамки*/
     }
     body { 
-        background: #F9FAFA; 
+        /*background: #344146;*/
+        background: url(cover1.jpg) no-repeat;
+        background-size: 100%; /* фон на вес блок */;
+        background-attachment: fixed; /* не скролит фон */    
     } 
     .left {
         float: left; /* Обтекание по правому краю */ 
-        border: 1px solid gray; /* Параметры рамки */
+        /*border: 1px solid gray; /* Параметры рамки */
         width: 50%; /* Ширина блока */
-        box-sizing: border-box;
+        /*box-sizing: border-box;*/
         overflow: hidden;/*Отображается только область внутри элемента*/
         text-overflow: ellipsis;/*точки*/
         white-space: nowrap;/*перенос текста -Не переносится -Не учитываются*/
+        margin-top: 5%;/*отступ от верха блока*/
     }
     .right {
         float: left; /* Обтекание по правому краю */
-        border: 1px solid gray; /* Параметры рамки */
+        /*border: 1px solid gray; /* Параметры рамки */
         width: 50%; /* Ширина блока */
-        box-sizing: border-box;
+        /*box-sizing: border-box;*/
         overflow: hidden;/*Отображается только область внутри элемента*/
         text-overflow: ellipsis;/*точки*/
         white-space: nowrap;/*перенос текста -Не переносится -Не учитываются*/
-    }
+        margin-top: 5%;/*отступ от верха блока*/
+        }
     .field {
         margin: 10px 10px ; /* Выравниваем по центру */
     }
@@ -54,25 +79,53 @@
     }
     a {
         text-decoration: none; /*убрать подчеркивание */
-        color: black; /* Цвет ссылки */
+        color: #ECF0F1; /* Цвет ссылки */
     }
     a:hover {
         /*text-decoration: underline ;/*подчеркивание при наведении*/
-        color: black; /* Цвет ссылки */
+        color:#ECF0F1; /* Цвет ссылки */
         /*color: #154088;*/
-        background: #E0F2F7;
+        background:#E67E22;
     }
     .alphabet a { 
         display: inline-block;
         min-width: 25px;
         text-align: center;
         width: 3.24%;
-
+        color:#ECF0F1;
+        font-size: larger;
+        font-family: Arial, Helvetica, sans-serif;
     }
     .alphabet {
-	    
         width: 100%;
         margin: 40px 0px 0px 0px;
+    }
+    .line {
+        min-height: 30px; /*высота*/
+        line-height: 30px; /*текст по средине */
+        cursor: pointer;  /*курсор пальчик*/
+        text-align: center;
+    }
+    .line:hover{
+        background:#E67E22;
+    }
+    .footer a{
+        display: inline-block;
+        line-height: 30px;
+        /*margin: 0px 80px 0 80px;*/
+        min-width: 250px;       
+    }
+    .footer {
+        text-align: center;
+    }
+    a {
+        color: #ECF0F1;
+    }
+    .button_search:hover {
+        background:#E67E22;
+    }
+    .headline {
+        text-align: center;
     }
 
     
