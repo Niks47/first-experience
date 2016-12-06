@@ -8,15 +8,22 @@
     }   
     .search_line {
         background:#ECF0F1;
-        border: 1px solid #ECF0F1;
+        /*border: 1px solid #ECF0F1;*/
         border-radius: 5px;
-        min-width: 327px; /*длинна поля*/
+        min-width: 320px; /*длинна поля*/
+        min-height: 25px;
+    } 
+    .search_line:focus {
+        outline: none; /*убирает фокус с поля*/
     } 
     .button_search {
         background:#ECF0F1;
-        border: 1px solid #ECF0F1;
         border-radius: 5px;
         min-width: 60px;
+        min-height: 25px;      
+    }
+    .button_search:focus {
+        outline: none;
     }
     .top { 
         width: 860px; /* Ширина блока */
